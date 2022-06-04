@@ -366,17 +366,17 @@ button:focus{
 
 .foto-rounded-edges .cristal-image-4 {
     top:-30px;
-    left:60px
+    left:50px; 
 }
 
 .foto-rounded-edges .cristal-image-5 {
-    top:0px;
-    right:55px
+    top: -38px;
+    right: 10px;
 }
 
 .foto-rounded-edges .cristal-image-6 {
-    top:-10px;
-    right:110px
+    top: -57px;
+    right: 55px;
 }
 
 /* SZERSZA PERSPEKTYWA */
