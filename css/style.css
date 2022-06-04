@@ -1,0 +1,523 @@
+html
+{
+    overflow-x: hidden !important;
+}
+body
+{
+    font-family: 'Montserrat', sans-serif !important;
+    overflow-x: hidden;
+}
+
+h1
+{
+    font-size: 42pt;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+h4{
+    text-align: center;
+}
+
+h5{
+    font-weight: 600;
+}
+h2
+{
+    font-size: 32pt;
+    font-weight: bold;
+}
+
+p{
+    font-weight: 600;
+    font-size: 10pt;
+}
+li{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 12pt;
+    font-weight: 500;
+}
+ul
+{
+    padding: 0
+}
+
+button:focus{
+    outline: none !important;
+}
+
+/*---- CONTAINER -----*/
+.container-fluid
+{
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+.container-fluid:nth-child(2n+1)
+{
+    background-color: #f1f2f9;
+}
+
+/* ---- MENU ----- */
+.navbar.menu 
+{
+    margin-bottom: 0;
+    border-top: 1px solid #38457d;
+    background-color: #162a54;
+    border-radius: 0;
+    padding: 0;
+    font-size: 10pt;
+}
+.navbar-toggler
+{
+    margin: 10px;
+}
+.menu a.active 
+{
+    border-bottom: 3px solid #3ABFE8;
+}
+.gora
+{
+    overflow-x: hidden;
+    font-weight: 200 !important;
+    background-color: #04163e !important;
+    color: #fff;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+.gora img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.gora .foto-3d-action
+{
+    font-size: 10pt;
+}
+.gora .foto-3d-action img
+{
+    max-width: 20px;
+}
+/*---- HEADING -----*/
+
+.foto-krysztal2-heading 
+{
+    background-color: #0e2049 !important;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    color: #fff;
+}
+
+.foto-krysztal2-heading p 
+{
+    font-size: 12pt;
+    font-weight: 400;
+}
+.foto-krysztal2-description 
+{
+    font-weight: 500;
+    font-size: 11pt;
+    width: 70%;
+    color: #000;
+}
+.foto-krysztal2-heading .foto-krysztal2-description
+{
+    color: #fff;
+    width: 60%;
+}
+
+
+/* ------ BUTTON ----- */
+
+.btn 
+{
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
+}
+.btn-yellow 
+{
+    color: #ffc107;
+    border-color: #ffc107;
+}
+.btn-yellow:hover 
+{
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+
+.btn.btn-download {
+    padding: 0 !important;
+    font-size: 11pt;
+}
+.btn-spec {
+    text-decoration: underline;
+}
+
+.btn-white 
+{
+    color: #fff !important;
+    border-color: #fff !important;
+}
+.btn-white:hover {
+    color: #272e70 !important;
+    background-color: #ffc107 !important;
+    border-color: #ffc107 !important;
+}
+
+/* ------ 7 CECHY ------ */
+
+.foto-krysztal2-image-half 
+{
+    max-width: 100%;
+}
+.foto-krysztal2-features h2 
+{
+    font-size: 32pt;
+    font-weight: bold;
+}
+.foto-krysztal2-features h3 
+{
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.foto-krysztal2-list li .number {
+    height: 25px !important;
+    width: 25px !important;
+    min-height: 25px !important;
+    min-width: 25px !important;
+    text-align: center;
+    background-color: #ffcb0f;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 0px 0px 5px 1px #ffcb0f;
+}
+
+.number {
+    color: #fff;
+    font-size: 14pt;
+}
+
+.foto-krysztal2-features .foto-krysztal2-description 
+{
+    color: #000;
+    width: 100%;
+}
+
+/* ------ Nasze Kryształy ----- */
+
+.foto-krysztal2-ourcrystals h1
+{
+    font-size: 30pt;
+}
+
+.foto-krysztal2-specification .icon-wrapper 
+{
+    float: left;
+    width: 16%;
+}
+.icon {
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.foto-krysztal2-specification .description 
+{
+    float: left;
+    width: 84%;
+    text-align: justify;
+    font-size: 10pt;
+    font-weight: 500;
+}
+
+.foto-krysztal2-photomontage
+{
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+.foto-krysztal2-photomontage .foto-krysztal2-montage-bg 
+{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+}
+.foto-krysztal2-montage-bg.photo-1
+{
+    background-image: url('../img/montage1.png');
+}
+.foto-krysztal2-montage-bg.photo-2
+{
+    background-image: url('../img/montage2.png');
+}
+.foto-krysztal2-montage-bg.photo-3
+{
+    background-image: url('../img/montage3.png');
+    background-position: left;
+}
+.foto-krysztal2-montage-bg.left
+{
+    left: 0;
+}
+.foto-krysztal2-montage-bg.right
+{
+    right: 0;
+}
+.foto-krysztal2-photomontage .row
+{
+    position: relative;
+    flex-wrap: wrap-reverse;
+}
+.foto-krysztal2-img-wrapper
+{
+    height: 150px;
+}
+.foto-krysztal2-montage-bg .foto-krysztal2-img-wrapper
+{
+    display: none;
+}
+
+
+/* ----- POSTAW NA JAKOŚĆ ----- */
+.foto-krysztal2-video-image img,.foto-krysztal2-video-image video
+{
+    max-width: 90%;
+}
+
+/* ZDJECIA NA KRYSZTALE 5MM */
+
+.foto-krysztal2-card
+{
+    width: 24%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .foto-krysztal2-card.large
+{
+    width: 50% !important;
+} */
+.foto-krysztal2-card-inside
+{
+    background-color: #fff;
+    box-shadow: 0 0 10px #8d8d8d;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+.foto-krysztal2-card-inside.desc
+{
+    padding: 20px 10px;
+    height: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.foto-krysztal2-card-inside.desc .foto-krysztal2-desc
+{
+    width: 100%;
+}
+.foto-krysztal2-card img
+{
+    max-height: 100%;
+    max-width: 100%;
+}
+.foto-krysztal2-img.big
+{
+    width: 80%;
+}
+.foto-krysztal2-img
+{
+    width: 60%;
+    margin: 10px auto;
+}
+.foto-krysztal2-desc
+{
+    text-align: left;
+    padding-top: 25px;
+}
+.foto-krysztal2-desc p:last-child
+{
+    margin: 0;
+}
+
+/* KRYSZTAŁY */
+.foto-rounded-edges .cristal-image-1 {
+    left:110px
+}
+
+.foto-rounded-edges .cristal-image-2 {
+    top: 12px; 
+    left:40px
+}
+
+.foto-rounded-edges .cristal-image-3 {
+    bottom: 32px; 
+    right:85px
+}
+
+.foto-rounded-edges .cristal-image-4 {
+    top:-30px;
+    left:60px
+}
+
+.foto-rounded-edges .cristal-image-5 {
+    top:0px;
+    right:55px
+}
+
+.foto-rounded-edges .cristal-image-6 {
+    top:-10px;
+    right:110px
+}
+
+/* SZERSZA PERSPEKTYWA */
+
+.foto-krysztal2-img-perspective
+{
+    box-shadow: 0 0 10px #8d8d8d;
+}
+
+.foto-krysztal2-card-perspective
+{
+    padding: 15px;
+    height: 380px;
+    display: flex !important;
+    align-items: center;
+}
+
+/* DOSTĘPNE KSZTAŁTY */
+
+.foto-krysztal2-available-slider 
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.foto-krysztal2-card-slider 
+{
+    width: 30%;
+    margin: 1%;
+    padding: 20px;
+}
+.foto-krysztal2-shape
+{
+box-shadow: 0px 0px 13px 5px rgba(178, 178, 178, 0.5);
+border: none !important;
+height: 250px;
+background-color: #fff;
+border-radius: 10px;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-bottom: 150px;
+transition: all .5s ease-in-out;
+}
+.foto-krysztal2-shape-img-wrapper 
+{
+    height: 200px;
+    position: relative;
+}
+.foto-krysztal2-shape img
+{
+    max-height: 200px;
+    max-width: 70%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.foto-krysztal2-shape:hover 
+{
+    box-shadow: none;
+    cursor: pointer;
+    background: transparent;
+    transition: all .5s ease-in-out;
+}
+.foto-krysztal2-shape-img-wrapper h2
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.foto-krysztal2-caption
+{
+    background-color: #ffcb0f;
+    position: relative;
+    bottom: 12px;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    margin: 10px auto !important;
+    padding: 5px;
+    margin-bottom: 0 !important;
+    border-radius: 10px;
+}
+.foto-krysztal2-caption h4 
+{
+    font-size: 18pt;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.foto-krysztal2-caption p 
+{
+    margin-bottom: 0;
+}
+.foto-krysztal2-shape-add-to-cart-wrapper 
+{
+    margin: 10px auto;
+    height: 30px !important;
+}
+
+.slick-prev, .slick-next 
+{
+    top: 35%;
+    height: 70px;
+    z-index: 1;
+}
+.slick-prev img, .slick-next img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+.slick-prev 
+{
+    left: -35px;
+}
+.slick-next 
+{
+    right: -35px;
+}
+
+
+/* LAST */
+
+.foto-krysztal2-order-now 
+{
+    background-color: #2a3251 !important;
+    color: #fff;
+}
+
+.foto-krysztal2-last 
+{
+    margin-bottom: 45px !important;
+}
+.foto-krysztal2-order-now a 
+{
+    text-decoration: underline !important;
+}
